@@ -1,10 +1,13 @@
-const { Class } = require('../models');
+const { User, Book} = require('../models');
 
 const resolvers = {
   Query: {
-    classes: async () => {
-      return await Class.find({});
-    }
+    // users: async () => {
+    //   return await User.find({});
+    // },
+    // books: async (parent, { _id }) => {
+    //   const params
+    // }
   }
 };
 
